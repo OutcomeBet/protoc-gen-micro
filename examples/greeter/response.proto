@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package greeter;
+
+import "examples/greeter/some.proto";
+
+message Response {
+    string msg = 1;
+    Some some = 2;
+}
